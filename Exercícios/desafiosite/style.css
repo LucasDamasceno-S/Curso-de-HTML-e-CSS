@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(fonts/idroid.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3CD781, #2B9B5D, #1A5C38);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header > h1 {
+    margin: 0px;
+}
+header > p {
+    width: 450px;
+    margin:auto;
+    padding-bottom: 20px;
+}
+
+.menulinks{
+    text-decoration: none;
+    color: white;
+    font: bold 0.8em arial;
+    text-align: left;
+    padding: 5px;
+}
+#menu > a:hover{
+    background-color:#1A5C38;
+    padding: 10px;
+}
+#menu{
+    text-align: left;
+}
+
+body{
+    /*margin:0px; - a falta desse comando fez com q meu cabeçalho n encostasse...*/
+    background-color: #83E1AD;
+}
+
+main{
+    background-color: white;
+    margin:auto;
+    width: 900px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.432);
+}
+div{
+    text-align: center;
+}
+
+main > h1{
+    font-family: Android;
+    color: #33704E;
+}
+
+main > h2{
+    font-family:android;
+    background-image:linear-gradient(to right, #C6EBD6, #E1F5E9, #FFFFFF);
+    color: #33704E;
+}
+main > p{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#video{
+    background-color: #1A5C38;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+#qam{
+    color:white;
+    background-color:#2FA866;
+    background-image: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin: 15px 10px 0px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+}
+#qamgeral{
+    background-color: #C4EBD6;
+    margin: 0px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 10px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+}
+#qamgeral > p{
+    text-indent: 20px;
+    text-align: justify;
+}
+#pfinal{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    margin: 10px 0px 0px 0px;
+}
